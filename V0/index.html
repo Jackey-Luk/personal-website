@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Fenglin Lu · MSc Student in Agentic AI Systems</title>
+  <meta name="description" content="I am a postgraduate student in Agentic AI Systems at The Hong Kong Polytechnic University, with an undergraduate background in Artificial Intelligence.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner page-width">
+      <nav aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="theme-toggle" id="theme-toggle" hidden>Dark theme</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section section--intro page-width" aria-labelledby="owner-name">
+      <img class="portrait" src="assets/photo.jpg" alt="Portrait of Fenglin Lu" width="480" height="698">
+      <div class="section__body flow">
+        <h1 id="owner-name">Fenglin Lu · <span lang="zh-Hans">陆丰林</span></h1>
+        <p class="role-line">MSc Student in Agentic AI Systems</p>
+        <p>I am a postgraduate student in Agentic AI Systems at The Hong Kong Polytechnic University, with an undergraduate background in Artificial Intelligence.</p>
+        <p>My work spans machine learning, recommendation algorithms, computer vision, and interactive applications. I am particularly interested in how intelligent systems make decisions and how people understand and interact with them.</p>
+        <p><strong>Areas of interest:</strong> Agentic AI · Machine Learning · Human–Computer Interaction</p>
+        <ul class="section-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section page-width" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <div class="section__body flow">
+        <p class="lead">I am interested in building intelligent systems that are useful, understandable, and thoughtfully designed.</p>
+        <p>My academic background in Artificial Intelligence has given me opportunities to work with predictive modelling, neural networks, computer vision, and recommendation algorithms. Through these projects, I have explored the process of turning data and models into working applications.</p>
+        <p>My interest in human–computer interaction grew out of software implementation coursework. It encouraged me to consider not only whether a system works, but also how clearly it communicates, how its interactions feel, and how well it supports the people using it.</p>
+        <p>This interest led me to study user-centred design and user experience alongside my technical work. I am now continuing my studies in Agentic AI Systems, bringing together my interests in intelligent behaviour, software development, and human interaction.</p>
+
+        <h3>Education</h3>
+        <ul class="rows">
+          <li>
+            <h4>The Hong Kong Polytechnic University</h4>
+            <p>MSc in Agentic AI Systems</p>
+            <p class="muted">2026–Present</p>
+          </li>
+          <li>
+            <h4>University of Aberdeen</h4>
+            <p>Bachelor of Science in Artificial Intelligence</p>
+            <p class="muted">September 2021–July 2025</p>
+            <p class="muted">Upper Second Class Honours</p>
+          </li>
+          <li>
+            <h4>South China Normal University</h4>
+            <p>Bachelor of Science in Artificial Intelligence</p>
+            <p class="muted">September 2021–June 2025</p>
+          </li>
+        </ul>
+
+        <h3>Technical Background</h3>
+        <dl class="rows rows--split">
+          <div>
+            <dt>Programming and data</dt>
+            <dd>Python, SQL, JavaScript, NumPy, pandas</dd>
+          </div>
+          <div>
+            <dt>Machine learning and deep learning</dt>
+            <dd>PyTorch, scikit-learn, ensemble learning, gradient boosting, LSTM networks, model evaluation</dd>
+          </div>
+          <div>
+            <dt>Recommendation and decision-making</dt>
+            <dd>Multi-armed bandits, Epsilon-greedy, UCB, Thompson Sampling</dd>
+          </div>
+          <div>
+            <dt>Applications and tools</dt>
+            <dd>Flask, PyQt, ROS2, Git, Conda, LaTeX</dd>
+          </div>
+        </dl>
+
+        <h3>Languages</h3>
+        <ul class="rows">
+          <li>Mandarin Chinese: Native</li>
+          <li>Cantonese: Proficient</li>
+          <li>English: Academic and working proficiency</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section page-width" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <div class="section__body flow">
+        <article class="card flow">
+          <h3 id="project-1-title">Automated Sports Team Performance Forecasting</h3>
+          <p class="meta">Undergraduate Dissertation · University of Aberdeen · 2024–2025</p>
+
+          <h4>Purpose</h4>
+          <p>This project investigated the prediction of English Premier League match outcomes using historical match data. It explored how engineered features, ensemble models, and temporal modelling could be combined in a forecasting workflow.</p>
+
+          <h4>My Contribution</h4>
+          <p>For my undergraduate dissertation, I developed a machine learning workflow covering data preparation, feature engineering, model development, and application integration.</p>
+          <p>I worked with multi-season Premier League data and constructed features including rolling performance statistics, Elo ratings, and historical team information.</p>
+          <p>I designed a two-stage hybrid framework combining tree-based models, including XGBoost, LightGBM, and Random Forest, with an LSTM meta-learner to model temporal patterns.</p>
+          <p>I also built a Flask web application that allows users to enter match information and view model-generated predictions through an interactive interface.</p>
+
+          <details class="panel">
+            <summary id="project-1-details" aria-labelledby="project-1-details project-1-title">Project details</summary>
+            <div class="panel__body flow">
+              <h4>Key Components</h4>
+              <ul class="bullets">
+                <li>Historical match data cleaning and preparation</li>
+                <li>Rolling statistics and Elo-based feature engineering</li>
+                <li>Tree-based ensemble models and LSTM modelling</li>
+                <li>A Flask interface connecting user input with model predictions</li>
+              </ul>
+              <p class="tag-line"><strong>Technologies:</strong> Python · PyTorch · scikit-learn · pandas · XGBoost · LightGBM · Flask · HTML/CSS</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="card flow">
+          <h3 id="project-2-title">Fruit Quality Detection and Automatic Vending System</h3>
+          <p class="meta">University-Level Innovation Training Project · November 2022–June 2024</p>
+          <p class="meta"><strong>Role:</strong> Core Team Member — Algorithm and Software Development</p>
+
+          <h4>Purpose</h4>
+          <p>This team project explored the integration of fruit recognition and quality assessment into an automated vending system. It combined computer vision, an interactive software interface, and camera and sensor integration.</p>
+          <p>The recognition component focused on identifying fruit types and distinguishing fresh from decayed fruit.</p>
+
+          <h4>My Contribution</h4>
+          <p>As a core team member responsible for algorithms and software, I worked on image preprocessing, recognition model development, and the integration of the detection workflow with the application.</p>
+          <p>I developed a PyQt interface and worked on connecting cameras and sensors with the software backend.</p>
+          <p>I also led dataset annotation work involving more than 5,000 fruit images and approximately 15,000 bounding boxes, supporting the preparation of data for model development.</p>
+
+          <details class="panel">
+            <summary id="project-2-details" aria-labelledby="project-2-details project-2-title">Project details</summary>
+            <div class="panel__body flow">
+              <h4>Key Components</h4>
+              <ul class="bullets">
+                <li>Fruit-type recognition and freshness classification</li>
+                <li>Image preprocessing and training-data preparation</li>
+                <li>Dataset annotation and bounding-box labelling</li>
+                <li>A PyQt graphical interface</li>
+                <li>Integration between software, cameras, and sensors</li>
+              </ul>
+              <h4>Project Recognition</h4>
+              <p>The project was selected as a university-level innovation training project. The team also obtained software copyright registration in China.</p>
+              <p class="tag-line"><strong>Technologies:</strong> Python · Deep Learning · Image Processing · Object Detection · PyQt</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="card flow">
+          <h3 id="project-3-title">Thompson Sampling for Recommendation</h3>
+          <p class="meta">Machine Learning Experimentation Project</p>
+
+          <h4>Purpose</h4>
+          <p>This project explored how multi-armed bandit methods can support recommendation decisions by balancing exploration and exploitation: trying less-understood options while using knowledge gained from existing feedback.</p>
+          <p>The work involved MovieLens 1M and e-commerce interaction data, with a focus on Thompson Sampling and the design of reward signals.</p>
+
+          <h4>My Contribution</h4>
+          <p>I worked on Python implementations of Thompson Sampling, including the use of Beta distributions to represent uncertainty and update action selection based on feedback.</p>
+          <p>I explored how different e-commerce actions, such as viewing, favouriting, adding to a cart, and purchasing, could be translated into weighted reward signals.</p>
+          <p>I also worked on experimental code and visualisations for examining algorithm behaviour, including comparisons with Explore-Then-Commit and analysis using cumulative reward and regret.</p>
+
+          <details class="panel">
+            <summary id="project-3-details" aria-labelledby="project-3-details project-3-title">Project details</summary>
+            <div class="panel__body flow">
+              <h4>Key Components</h4>
+              <ul class="bullets">
+                <li>Thompson Sampling implementation and feedback-based updates</li>
+                <li>Preparation of movie-rating and e-commerce interaction data</li>
+                <li>Reward design using different types of user behaviour</li>
+                <li>Experimental comparison of exploration–exploitation strategies</li>
+                <li>Visualisation and interpretation of dataset-based results</li>
+              </ul>
+              <h4>What I Learned</h4>
+              <p>This project strengthened my understanding of uncertainty-aware decision-making and the influence of reward definitions on experimental outcomes. It also highlighted the need to distinguish results obtained from historical datasets or simulations from improvements demonstrated in a live recommendation system.</p>
+              <p class="tag-line"><strong>Technologies:</strong> Python · NumPy · pandas · Matplotlib · Thompson Sampling · Multi-Armed Bandits</p>
+            </div>
+          </details>
+        </article>
+
+        <h3>Selected Publication</h3>
+        <article class="card flow">
+          <h4>Adaptive Recommendation System Strategies: An Exploration of Online Machine Learning Algorithms</h4>
+          <p class="meta">First Author · 2024</p>
+          <p>Published in the Proceedings of the 1st International Conference on Engineering Management, Information Technology and Intelligence (EMITI 2024).</p>
+          <p>This paper explores adaptive recommendation strategies through reinforcement learning and multi-armed bandit frameworks. It examines the exploration–exploitation trade-off and discusses approaches including Epsilon-greedy, Upper Confidence Bound, and Thompson Sampling.</p>
+          <p>The work considers applications across recommendation settings such as e-commerce, news, and online advertising.</p>
+          <p class="tag-line"><strong>Topics:</strong> Reinforcement Learning · Multi-Armed Bandits · Recommendation Systems · Online Learning</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section page-width" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <div class="section__body flow">
+        <p>Contact details are withheld for privacy.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="page-width">Fenglin Lu · <span lang="zh-Hans">陆丰林</span></p>
+  </footer>
+</body>
+</html>
